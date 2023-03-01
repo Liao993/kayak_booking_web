@@ -58,9 +58,21 @@ nav > ul > li  {
     font-size: 20px;
 }
 nav > ul >li > a {
-    color: black;
+    color: white;
 }
 
+/*navigation shadow*/
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 18%; 
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top layer */
+    top: 50px; 
+    background-color: darkblue;
+    /*overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 5px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
 
   
 /*main content, including the image must get no wider than 1200px*/
