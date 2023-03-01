@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!--Responsive design: viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link to style.css file-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Halifax Canoe and Kayak</title>
+
+<!--joggle function-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $("input").click(function(){
+          $("nav").toggle();
+        });
+      });
+</script>  
+
+<body>
+    <header>
+        <!--menu button, title, logo,-->
+        <input class="left" type="image" src="hamburger.png" alt="hamburger"/>
+        <h1>Halifax Canoe and Kayak</h1>
+        <img class="right" src="paddle-white.png" alt ="paddle">
+
+        <!--navigation menu-->
+        <nav style="display: none" class="sidenav">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="book.html">Book Trip</a></li>
+                <li><a href="login.html">Admin Login</a></li>
+            </ul>
+        </nav>
+                    
+    </header>
+    
+    <main>
+       <!--image with Words on it-->
+   
+        <div>
+            <img src="canoe.jpeg" alt="Canoe" style="max-width:100%;height:auto;">
+            <div class="centered">Come Experience Canada</div>
+        </div>  
+   
+        <!--main content-->
+        <div>
+            <h1>Upcoming Advantures</h1>
+        </div>
+
+        <div>
+            <h1 class="green">Halifax</h1>
+            <p>Date : 2023/07/03 ~ 2023/07/06<br>Duration:4 days</p>
+            <h2>Summary</h2>
+            <p>
+               Enjoy your kayak trip in Halifax. In the Halifax region, there are over 1,000 lakes, 20 rivers, countless streams and 23 major coastal areas, 
+               providing those of us living in or visiting the region amazing opportunities for canoeing and kayaking.
+
+            </p>
+        </div>
+
+        <div>
+            <h1 class="green">Sydney</h1>
+            <p>Date : 2023/07/07 ~ 2023/07/10<br>Duration:4 days</p>
+            <h2>Summary</h2>
+            <p>
+                The best way to experience some of the best coastline in the world? As close to water as possible. 
+                Paddle in serene solitude, take a lesson with a pro, or join a guided tour for an intimate exploration of our waters. 
+                Get to know Cape Breton Island stroke by stroke with an engaging canoe or kayak expedition.
+             </p>
+        </div>
+    </main>
+   
+</body>
+</html>
+
+
+
+    
